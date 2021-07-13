@@ -1,0 +1,24 @@
+rnf - react native short code 
+rnfs - react native short code with the styling.
+
+1. Error code - 500
+First run your package server: Blockquote
+--> npx react-native start --port 8082
+
+Open another command prompt, start the Android app as usual:
+--> npx react-native run-android
+
+Once it finishes, now rewrite the tcp port that adb tunnels:
+--> adb reverse tcp:8081 tcp:8082
+
+See the list of adb tcp tunnels:
+--> adb reverse --list
+
+Now You should now see a message like:
+(reverse) tcp:8081 tcp:8082
+check your app it will run ...........!
+
+2.
+Google Auto Complete 
+~ https://www.npmjs.com/package/react-native-google-places-autocomplete
+--> npm install react-native-google-places-autocomplete --save
