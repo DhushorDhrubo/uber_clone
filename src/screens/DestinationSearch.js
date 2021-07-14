@@ -30,7 +30,7 @@ export default function DestinationSearch() {
           }}
           fetchDetails
           query={{
-            key: 'AIzaSyAkPjfnUZNi_6G8H90EM-LsH3q0gXa4KQA',
+            key: ' google API key required',
             language: 'en',
           }}
         />
